@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: drupal-pod
+  spec:
+    containers:
+      - name: drupal-pod
+        image: melewaily/cms:v1
+
